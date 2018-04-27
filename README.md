@@ -12,3 +12,8 @@ This code shows how Visual Studio Code starts sending TextEditorVisibleRangesCha
 5. Press Shift+Ctrl+P and select command 'Bug: Demo command'. The dropdown in the Output console should now read 'demo'.
 6. In some document (e.g. a new one), add a character.
 7. The Output console now will repeatingly output lines saying that the range has changes far beyond what really exists in the document.
+
+
+## Update
+
+This was not a bug. It was just the consequence of the output console being an editor. Now I feel ashamed not realizing this and believing it was a bug.
